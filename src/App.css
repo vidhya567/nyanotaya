@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 60px;
+  float: left;
+}
+
+.App-header {
+  background-color: #f8f9fa;
+  height: 65px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: left;
+  padding-top: 15px;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.postQuestionButton {
+  margin: 10px;
+}
+
+.modalQuestionPost {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  height: 80%;
+  width: 650px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: scroll;
+  /*font-family: "Comic Sans MS", cursive, sans-serif !important;*/
+}
+
+.modalBodyWrapper {
+  margin: 20px;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+label {
+  float: left;
+}
+
+.submitQuestion {
+  background-color: #2EBD59;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  outline: none !important;
+}
+
+.saveDraftButton {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  outline: none !important;
+}
+
+.checkbox {
+  margin-left: 4px;
+}
+
+.descriptionBox {
+  height: 50%;
+}
+
+.modal-header {
+  border-bottom: none!important;
+}
